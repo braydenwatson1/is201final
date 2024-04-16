@@ -1,0 +1,155 @@
+.common{
+    font-family: 'Arial';
+    font-size: medium;
+}
+.top{
+    position: fixed;
+    font-family: 'Arial';
+    font-size: x-large;
+    text-align: center;
+    background-color: white;
+    color: crimson;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    border: solid 3px lightskyblue;
+    z-index: 1;
+    font-weight: bold;
+}
+.content{
+text-align: left;
+background-color: lightcyan;
+left: 0px;
+right: 0px;
+margin-top: 108px;
+height: 300%;
+font-family: Arial;
+color: black;
+padding: 10px 50px ;
+}
+.content p{
+    background-color: lightcyan;
+    font-family: Arial;
+    color: black;
+    text-align: center;
+}
+.common.content img {
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    height: auto;
+    margin: 0 auto;
+    max-height: 450px;
+}
+.bottom{
+    text-align: left;
+    width: 13%;
+    border: solid 5px;
+    border-color: darkblue;
+    font-size: small;
+    color: lightskyblue;
+    background-color: black;
+    bottom: 0px;   
+    left: 0px;
+    right: 0px;
+    position: fixed; 
+}
+.nav-head{
+    color: blue;
+    font-size: medium;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+}
+a:link, a:visited {
+    color: rgb(4, 44, 224);
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+#video-player {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+  }
+  .heading{
+    position: relative;
+    font-family: 'Arial';
+    font-size: large;
+    text-align: center;
+    color: crimson;
+    font-weight: bold;
+  }
+  .common.content {
+    text-align: left; 
+  }
+
+  .common.content img {
+    display: inline-block;
+    max-height: 450px;
+    height: auto;
+    align-content: center;
+    margin: 0 10px; /* Add some horizontal margin for spacing */
+  }
+.resumetop{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: lightgoldenrodyellow;
+    border: solid burlywood 3px;
+    text-align: center;
+    font-family: Verdana;
+    font-size: medium;
+    z-index: 1;
+}
+.resumemiddle1{
+    position: absolute;
+    top: 63px;
+    left: 0px;
+    right: 0px;
+    height: 100%;
+    background-color: cornsilk;
+    font-family: Verdana;
+    font-size: medium;
+    padding-left: 5%;
+}
+.resumemiddle2{
+    position: absolute;
+    background-color: cornsilk;
+    font-family: Verdana;
+    font-size: medium;
+    top: 360px;
+    left: 0px;
+    right: 0px;
+    height: 100%;
+    padding-left: 5%;
+}
+.nav-head-resume{
+    color: white;
+    font-size: medium;
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: auto;
+}
+.resumeimg{
+    border: solid 3px black;
+    display: block;
+    margin: 0 auto;
+}
+.resumeheader{
+    text-align: left;
+    margin-left: 43%;
+    color: black;
+    font-weight: bold;
+}
+.resumecontent1{
+    background-color: cornsilk;
+}
+.resumecontent2{
+    background-color: cornsilk;
+}

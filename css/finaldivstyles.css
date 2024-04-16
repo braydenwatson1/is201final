@@ -1,0 +1,78 @@
+.common{
+    font-family: 'Arial';
+    font-size: medium;
+    position: absolute;
+}
+.top{
+    position: fixed;
+    font-family: 'Arial';
+    font-size: x-large;
+    text-align: center;
+    background-color: white;
+    color: crimson;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    border: solid 3px lightskyblue;
+    z-index: 1;
+    font-weight: bold;
+}
+.content{
+background-color: lightcyan;
+left: 0px;
+right: 0px;
+top: 108px;
+height: 125%;
+font-family: Arial;
+color: black;
+padding: 10px 50px ;
+}
+.content p{
+    background-color: lightcyan;
+    font-family: Arial;
+    color: black;
+    text-align: center;
+}
+
+.bottom{
+    text-align: left;
+    width: 13%;
+    border: solid 5px;
+    border-color: darkblue;
+    font-size: small;
+    color: lightskyblue;
+    background-color: black;
+    bottom: 0px;   
+    left: 0px;
+    right: 0px;
+    position: fixed; 
+}
+.nav-head{
+    color: blue;
+    font-size: medium;
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: auto;
+}
+a:link {
+    color: rgb(4, 44, 224);
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+#video-player {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+  }
+  .heading{
+    position: relative;
+    font-family: 'Arial';
+    font-size: large;
+    text-align: center;
+    color: crimson;
+    font-weight: bold;
+  }
